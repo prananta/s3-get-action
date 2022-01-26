@@ -4,8 +4,8 @@ LABEL "name"="S3Cmd Container"
 LABEL "maintainer"="Jon Friesen"
 LABEL "version"="0.0.1"
 
-LABEL "com.github.actions.name"="S3Cmd File Uploader"
-LABEL "com.github.actions.description"="S3Cmd File Uploader"
+LABEL "com.github.actions.name"="S3Cmd File Downloader"
+LABEL "com.github.actions.description"="S3Cmd File Downloader"
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="green"
 

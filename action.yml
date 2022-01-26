@@ -1,9 +1,9 @@
-name: 'Push to S3'
-author: 'Jon Friesen'
+name: "Download to S3"
+author: "Nico Prananta"
 branding:
-  icon: 'upload-cloud'
-  color: 'orange'
-description: 'Uses s3cmd to upload a single file to an S3 bucket'
+  icon: "download-cloud"
+  color: "orange"
+description: "Uses s3cmd to download a single file from an S3 bucket"
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"

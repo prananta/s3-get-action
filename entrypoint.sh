@@ -19,4 +19,4 @@ if [[ ! -z "$INCLUDE_SHA256" ]]; then
     s3cmd put ${LOCAL_FILE}.sha256 s3://${AWS_BUCKET}/${REMOTE_FILE}.sha256 $*
 fi
 
-s3cmd put ${LOCAL_FILE} s3://${AWS_BUCKET}/${REMOTE_FILE} $*
+s3cmd get s3://${AWS_BUCKET}/${REMOTE_FILE} ${LOCAL_FILE}
